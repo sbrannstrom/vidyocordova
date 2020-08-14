@@ -83,7 +83,7 @@
 
         <!-- It's taking latest version on repo -->
         <!-- spec="~> 19.3.1.6" -->
-        <pod name="VidyoIOClient" spec="~> 20.1.0.9"/> 
+        <pod name="VidyoIOClient" /> 
 
 		<config-file target="config.xml" parent="/*">
 			<feature name="VidyoPlugin">
