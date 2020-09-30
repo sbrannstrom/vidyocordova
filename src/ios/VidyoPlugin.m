@@ -87,7 +87,8 @@
 
     /* disable slide donw */
     if (@available(iOS 13.0, *)) {
-        self.vidyoViewController.modalInPresentation = TRUE;
+        // self.vidyoViewController.modalInPresentation = TRUE;
+        self.vidyoViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     }
     
     self.vidyoViewController.plugin = self;
