@@ -168,7 +168,7 @@ public class VidyoActivity extends Activity implements Connector.IConnect, Conne
                                     Connector.ConnectorViewStyle.VIDYO_CONNECTORVIEWSTYLE_Default,
                                     16,
                                     "debug@VidyoClient info@VidyoConnector warning ",
-                                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + "/VidyoAndroid.log",
+                                    "",
                                     0);
                             mLogger.Log("Version is " + mVidyoConnector.getVersion());
 
